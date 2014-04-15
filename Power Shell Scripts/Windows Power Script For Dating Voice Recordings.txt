@@ -1,0 +1,1 @@
+Get-ChildItem *.3ga | Rename-Item -newname {$_.LastWriteTime.toString("MM.dd.yyyy.HH.mm") + ".3ga"}

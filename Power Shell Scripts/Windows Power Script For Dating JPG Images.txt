@@ -1,0 +1,1 @@
+Get-ChildItem *.jpg | Rename-Item -newname {$_.LastWriteTime.toString("MM.dd.yyyy.HH.mm") + ".jpg"}
